@@ -1,0 +1,35 @@
+{
+  "name": "bitcore-message-bzedge",
+  "version": "1.0.2",
+  "description": "BZEdge Messages for Bitcore",
+  "author": "BitPay <dev@bitpay.com>",
+  "main": "index.js",
+  "scripts": {
+    "lint": "gulp lint",
+    "test": "gulp test:node",
+    "coverage": "gulp coverage",
+    "build": "gulp"
+  },
+  "keywords": [
+    "bzedge",
+    "bitcore",
+    "btc",
+    "satoshi",
+    "message",
+    "signing"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bze-alphateam/bitcore-message-bzedge.git"
+  },
+  "dependencies": {
+    "bitcore-lib-bzedge": "git://github.com/bze-alphateam/bitcore-lib-bzedge"
+  },
+  "devDependencies": {
+    "bitcore-build-bzedge": "git://github.com/bze-alphateam/bitcore-build-bzedge",
+    "brfs": "^1.3.0",
+    "chai": "~1.10.0",
+    "gulp": "^3.8.10"
+  },
+  "license": "MIT"
+}
